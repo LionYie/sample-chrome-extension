@@ -97,14 +97,14 @@ function copyTextToClipboard(text) {
 
 进入chrome扩展程序管理页，打开开发者模式
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/ba0ed2eb5f984385b1f5c4f837c576a2.png)
+![在这里插入图片描述](README.assets/ba0ed2eb5f984385b1f5c4f837c576a2.png)
 点击【加载已解压的扩展程序】，选择存放插件代码的文件夹，这样我们的插件就成功加载进来，可以正常使用了。
 
 如果想对代码进行调试，可点击插件的更多选项，然后选择【审查弹出内容】，这样就可以像普通的前端页面一样在浏览器进行调试了，`console.log`输出的内容同样会显示在控制台中。
-![在这里插入图片描述](https://img-blog.csdnimg.cn/c250ddaf60284129b33ac50ca0a2b5f5.png)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/d5248cdfb6f545b6985446a349235cf7.png)
+![在这里插入图片描述](README.assets/c250ddaf60284129b33ac50ca0a2b5f5.png)
+![在这里插入图片描述](README.assets/d5248cdfb6f545b6985446a349235cf7.png)
 如果后续修改内容，只需点击【更新】，在文件存储路径不变的情况下会自动更新成最新的代码。
-![在这里插入图片描述](https://img-blog.csdnimg.cn/461761c4dc8a44a6ab217980087497bb.png)
+![在这里插入图片描述](README.assets/461761c4dc8a44a6ab217980087497bb.png)
 
 ## 扩展内容
 
