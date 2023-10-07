@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3, // 注意这里Chrome已将扩展程序的manifest版本更为3 
+    "name": "Copy Page Title", // 插件名
+    "version": "1.0", // 插件版本
+    "description": "Copies the title of the current page to the clipboard.", //插件描述
+    "permissions": [
+        "tabs"
+    ], // 用于声明插件所需的权限。这些权限允许插件访问浏览器的不同功能和 API
+    "action": { // 用于指定当用户点击插件时要执行的操作
+        "default_popup": "popup.html" // 指定插件的默认弹出窗口，用于在点击插件时打开
+    }
+}
