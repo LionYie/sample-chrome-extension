@@ -32,7 +32,6 @@
     "default_popup": "popup.html" // 指定插件的默认弹出窗口，用于在点击插件时打开
   }
 }
-12345678910
 ```
 
 `popup.html`内容如下
@@ -54,10 +53,7 @@
 </body>
 
 </html>
-12345678910111213141516
 ```
-
-`popup.js`内容如下
 
 ```javascript
 document.addEventListener("DOMContentLoaded", function () {
@@ -97,10 +93,7 @@ function copyTextToClipboard(text) {
   }
   document.body.removeChild(textArea);
 }
-12345678910111213141516171819202122232425262728293031323334353637
 ```
-
-## 代码调试与本地使用
 
 进入chrome扩展程序管理页，打开开发者模式
 
